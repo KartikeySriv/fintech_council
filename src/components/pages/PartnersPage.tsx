@@ -1,0 +1,851 @@
+export function PartnersPage() {
+  return (
+    <>
+      <section className="page-hero grid-bg">
+        <div className="wrap">
+          <div>
+            <div className="crumbs">
+              <a href="/">Home</a> <span>/</span> <a href="/partners">Partnership</a> <span>/</span>
+              Our Partners
+            </div>{" "}
+            <h1>Our Partners</h1>{" "}
+            <p>
+              Organisations that work with FCC on events, programmes, research and knowledge
+              exchange.
+            </p>
+          </div>{" "}
+          <div className="ph-art">
+            <svg viewBox="0 0 300 240" aria-hidden="true">
+              <circle
+                cx="150"
+                cy="120"
+                r="110"
+                stroke="rgba(255,255,255,.15)"
+                fill="none"
+                strokeDasharray="3 7"
+              ></circle>{" "}
+              <circle
+                cx="110"
+                cy="120"
+                r="52"
+                fill="rgba(255,255,255,.15)"
+                stroke="#fff"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              ></circle>{" "}
+              <circle
+                cx="190"
+                cy="120"
+                r="52"
+                fill="rgba(255,255,255,.15)"
+                stroke="#fff"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              ></circle>{" "}
+              <path d="M150 86a52 52 0 0 1 0 68a52 52 0 0 1 0-68z" fill="#fff" opacity=".85"></path>
+            </svg>
+          </div>
+        </div>
+      </section>
+      <nav className="subnav">
+        <div className="wrap">
+          <a href="/partners" className="on">
+            Our Partners
+          </a>{" "}
+          <a href="/partnership-benefits">Partnership Benefits</a>{" "}
+          <a href="/apply-partnership">Apply for Partnership</a>
+        </div>
+      </nav>
+      <section>
+        <div className="wrap">
+          <div className="sec-head">
+            <div>
+              <span className="eyebrow">Partner network</span>{" "}
+              <h2>Building the ecosystem together</h2>{" "}
+              <p className="lead">
+                Partner logos are shared here and on FCC's LinkedIn as part of every partnership.
+              </p>
+            </div>{" "}
+            <a href="/apply-partnership" className="btn btn-primary">
+              Become a partner
+            </a>
+          </div>
+          <div className="mgrid reveal">
+            <div className="mtile" style={{ borderStyle: "dashed", background: "var(--bg)" }}>
+              <div className="mono-av" style={{ background: "#fff" }}>
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M8 13l3 3 7-7M3 12l5 5M21 7l-3-3"></path>{" "}
+                  <path d="M2 12l4-4 4 4M22 8l-4 4"></path>
+                </svg>
+              </div>{" "}
+              <span style={{ color: "var(--muted)" }}>Partner logo</span>
+            </div>{" "}
+            <div className="mtile" style={{ borderStyle: "dashed", background: "var(--bg)" }}>
+              <div className="mono-av" style={{ background: "#fff" }}>
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M8 13l3 3 7-7M3 12l5 5M21 7l-3-3"></path>{" "}
+                  <path d="M2 12l4-4 4 4M22 8l-4 4"></path>
+                </svg>
+              </div>{" "}
+              <span style={{ color: "var(--muted)" }}>Partner logo</span>
+            </div>{" "}
+            <div className="mtile" style={{ borderStyle: "dashed", background: "var(--bg)" }}>
+              <div className="mono-av" style={{ background: "#fff" }}>
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M8 13l3 3 7-7M3 12l5 5M21 7l-3-3"></path>{" "}
+                  <path d="M2 12l4-4 4 4M22 8l-4 4"></path>
+                </svg>
+              </div>{" "}
+              <span style={{ color: "var(--muted)" }}>Partner logo</span>
+            </div>{" "}
+            <div className="mtile" style={{ borderStyle: "dashed", background: "var(--bg)" }}>
+              <div className="mono-av" style={{ background: "#fff" }}>
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M8 13l3 3 7-7M3 12l5 5M21 7l-3-3"></path>{" "}
+                  <path d="M2 12l4-4 4 4M22 8l-4 4"></path>
+                </svg>
+              </div>{" "}
+              <span style={{ color: "var(--muted)" }}>Partner logo</span>
+            </div>{" "}
+            <div className="mtile" style={{ borderStyle: "dashed", background: "var(--bg)" }}>
+              <div className="mono-av" style={{ background: "#fff" }}>
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M8 13l3 3 7-7M3 12l5 5M21 7l-3-3"></path>{" "}
+                  <path d="M2 12l4-4 4 4M22 8l-4 4"></path>
+                </svg>
+              </div>{" "}
+              <span style={{ color: "var(--muted)" }}>Partner logo</span>
+            </div>{" "}
+            <div className="mtile" style={{ borderStyle: "dashed", background: "var(--bg)" }}>
+              <div className="mono-av" style={{ background: "#fff" }}>
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M8 13l3 3 7-7M3 12l5 5M21 7l-3-3"></path>{" "}
+                  <path d="M2 12l4-4 4 4M22 8l-4 4"></path>
+                </svg>
+              </div>{" "}
+              <span style={{ color: "var(--muted)" }}>Partner logo</span>
+            </div>{" "}
+            <div className="mtile" style={{ borderStyle: "dashed", background: "var(--bg)" }}>
+              <div className="mono-av" style={{ background: "#fff" }}>
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M8 13l3 3 7-7M3 12l5 5M21 7l-3-3"></path>{" "}
+                  <path d="M2 12l4-4 4 4M22 8l-4 4"></path>
+                </svg>
+              </div>{" "}
+              <span style={{ color: "var(--muted)" }}>Partner logo</span>
+            </div>{" "}
+            <div className="mtile" style={{ borderStyle: "dashed", background: "var(--bg)" }}>
+              <div className="mono-av" style={{ background: "#fff" }}>
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M8 13l3 3 7-7M3 12l5 5M21 7l-3-3"></path>{" "}
+                  <path d="M2 12l4-4 4 4M22 8l-4 4"></path>
+                </svg>
+              </div>{" "}
+              <span style={{ color: "var(--muted)" }}>Partner logo</span>
+            </div>{" "}
+            <div className="mtile" style={{ borderStyle: "dashed", background: "var(--bg)" }}>
+              <div className="mono-av" style={{ background: "#fff" }}>
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M8 13l3 3 7-7M3 12l5 5M21 7l-3-3"></path>{" "}
+                  <path d="M2 12l4-4 4 4M22 8l-4 4"></path>
+                </svg>
+              </div>{" "}
+              <span style={{ color: "var(--muted)" }}>Partner logo</span>
+            </div>{" "}
+            <div className="mtile" style={{ borderStyle: "dashed", background: "var(--bg)" }}>
+              <div className="mono-av" style={{ background: "#fff" }}>
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M8 13l3 3 7-7M3 12l5 5M21 7l-3-3"></path>{" "}
+                  <path d="M2 12l4-4 4 4M22 8l-4 4"></path>
+                </svg>
+              </div>{" "}
+              <span style={{ color: "var(--muted)" }}>Partner logo</span>
+            </div>{" "}
+            <div className="mtile" style={{ borderStyle: "dashed", background: "var(--bg)" }}>
+              <div className="mono-av" style={{ background: "#fff" }}>
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M8 13l3 3 7-7M3 12l5 5M21 7l-3-3"></path>{" "}
+                  <path d="M2 12l4-4 4 4M22 8l-4 4"></path>
+                </svg>
+              </div>{" "}
+              <span style={{ color: "var(--muted)" }}>Partner logo</span>
+            </div>{" "}
+            <div className="mtile" style={{ borderStyle: "dashed", background: "var(--bg)" }}>
+              <div className="mono-av" style={{ background: "#fff" }}>
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M8 13l3 3 7-7M3 12l5 5M21 7l-3-3"></path>{" "}
+                  <path d="M2 12l4-4 4 4M22 8l-4 4"></path>
+                </svg>
+              </div>{" "}
+              <span style={{ color: "var(--muted)" }}>Partner logo</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-soft">
+        <div className="wrap">
+          <div className="sec-head">
+            <div>
+              <span className="eyebrow">Ways to partner</span> <h2>What we do with partners</h2>
+            </div>{" "}
+            <a href="/partnership-benefits" className="link-arrow">
+              See all benefits{" "}
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                aria-hidden="true"
+              >
+                <path d="M5 12h14M13 6l6 6-6 6"></path>
+              </svg>
+            </a>
+          </div>
+          <div className="grid-4 reveal">
+            <div className="card">
+              <div className="icon-box" style={{ marginBottom: "14px" }}>
+                <svg
+                  width="22"
+                  height="22"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  aria-hidden="true"
+                >
+                  <rect x="3" y="5" width="18" height="16" rx="2"></rect>{" "}
+                  <path d="M3 10h18M8 3v4M16 3v4"></path>
+                </svg>
+              </div>{" "}
+              <h4>Events & workshops</h4>
+            </div>{" "}
+            <div className="card">
+              <div className="icon-box" style={{ marginBottom: "14px" }}>
+                <svg
+                  width="22"
+                  height="22"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  aria-hidden="true"
+                >
+                  <rect x="9" y="3" width="6" height="11" rx="3"></rect>{" "}
+                  <path d="M5 11a7 7 0 0 0 14 0M12 18v3"></path>
+                </svg>
+              </div>{" "}
+              <h4>Knowledge sessions</h4>
+            </div>{" "}
+            <div className="card">
+              <div className="icon-box" style={{ marginBottom: "14px" }}>
+                <svg
+                  width="22"
+                  height="22"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5L18 18M6 18l2.5-2.5M15.5 8.5L18 6"></path>
+                </svg>
+              </div>{" "}
+              <h4>Hackathons & think tanks</h4>
+            </div>{" "}
+            <div className="card">
+              <div className="icon-box" style={{ marginBottom: "14px" }}>
+                <svg
+                  width="22"
+                  height="22"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M4 19V5a2 2 0 0 1 2-2h12v18H6a2 2 0 0 1-2-2zM8 7h6M8 11h6"></path>
+                </svg>
+              </div>{" "}
+              <h4>Research & reports</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-soft" style={{ paddingTop: "0" }}>
+        <div className="wrap">
+          <div className="cta-box reveal">
+            <div className="art">
+              <svg className="net" viewBox="0 0 500 500" fill="none" aria-hidden="true">
+                <circle
+                  cx="250"
+                  cy="250"
+                  r="232"
+                  stroke="rgba(255,255,255,.12)"
+                  strokeDasharray="2 8"
+                ></circle>{" "}
+                <circle
+                  cx="250"
+                  cy="250"
+                  r="165"
+                  stroke="rgba(255,255,255,.28)"
+                  strokeDasharray="4 6"
+                >
+                  <animateTransform
+                    attributeName="transform"
+                    type="rotate"
+                    from="0 250 250"
+                    to="360 250 250"
+                    dur="80s"
+                    repeatCount="indefinite"
+                  ></animateTransform>
+                </circle>{" "}
+                <circle cx="250" cy="250" r="96" stroke="rgba(255,255,255,.18)"></circle>{" "}
+                <circle cx="307.4" cy="25.2" r="4" fill="#fff" opacity=".7"></circle>{" "}
+                <text
+                  x="312.3"
+                  y="9.8"
+                  fill="rgba(255,255,255,.75)"
+                  fontFamily="JetBrains Mono,monospace"
+                  fontSize="11"
+                  textAnchor="start"
+                >
+                  RBI
+                </text>{" "}
+                <circle cx="461.5" cy="154.7" r="4" fill="#fff" opacity=".7"></circle>{" "}
+                <text
+                  x="479.8"
+                  y="150.5"
+                  fill="rgba(255,255,255,.75)"
+                  fontFamily="JetBrains Mono,monospace"
+                  fontSize="11"
+                  textAnchor="start"
+                >
+                  SEBI
+                </text>{" "}
+                <circle cx="456.4" cy="356.0" r="4" fill="#fff" opacity=".7"></circle>{" "}
+                <text
+                  x="474.2"
+                  y="369.1"
+                  fill="rgba(255,255,255,.75)"
+                  fontFamily="JetBrains Mono,monospace"
+                  fontSize="11"
+                  textAnchor="start"
+                >
+                  IRDAI
+                </text>{" "}
+                <circle cx="295.8" cy="477.4" r="4" fill="#fff" opacity=".7"></circle>{" "}
+                <text
+                  x="299.8"
+                  y="501.0"
+                  fill="rgba(255,255,255,.75)"
+                  fontFamily="JetBrains Mono,monospace"
+                  fontSize="11"
+                  textAnchor="middle"
+                >
+                  NPCI
+                </text>{" "}
+                <circle cx="100.8" cy="427.6" r="4" fill="#fff" opacity=".7"></circle>{" "}
+                <text
+                  x="87.9"
+                  y="446.9"
+                  fill="rgba(255,255,255,.75)"
+                  fontFamily="JetBrains Mono,monospace"
+                  fontSize="11"
+                  textAnchor="end"
+                >
+                  MeitY
+                </text>{" "}
+                <circle cx="18.1" cy="244.1" r="4" fill="#fff" opacity=".7"></circle>{" "}
+                <text
+                  x="-1.9"
+                  y="247.5"
+                  fill="rgba(255,255,255,.75)"
+                  fontFamily="JetBrains Mono,monospace"
+                  fontSize="11"
+                  textAnchor="end"
+                >
+                  CERSAI
+                </text>{" "}
+                <circle cx="110.0" cy="65.0" r="4" fill="#fff" opacity=".7"></circle>{" "}
+                <text
+                  x="98.0"
+                  y="53.0"
+                  fill="rgba(255,255,255,.75)"
+                  fontFamily="JetBrains Mono,monospace"
+                  fontSize="11"
+                  textAnchor="end"
+                >
+                  IBBI
+                </text>{" "}
+                <path
+                  id="p0"
+                  d="M250.0 85.0 L250 250"
+                  stroke="rgba(255,255,255,.35)"
+                  strokeWidth="1.2"
+                ></path>{" "}
+                <circle r="3.5" fill="#fff">
+                  <animateMotion dur="2.60s" repeatCount="indefinite" begin="-0.1s">
+                    <mpath href="#p0"></mpath>
+                  </animateMotion>
+                </circle>{" "}
+                <g>
+                  <circle
+                    cx="250.0"
+                    cy="85.0"
+                    r="34"
+                    fill="rgba(255,255,255,.12)"
+                    stroke="rgba(255,255,255,.5)"
+                  ></circle>{" "}
+                  <circle cx="250.0" cy="85.0" r="34" stroke="#fff" strokeOpacity=".5">
+                    <animate
+                      attributeName="r"
+                      values="34;44;34"
+                      dur="4s"
+                      begin="0.0s"
+                      repeatCount="indefinite"
+                    ></animate>{" "}
+                    <animate
+                      attributeName="stroke-opacity"
+                      values=".5;0;.5"
+                      dur="4s"
+                      begin="0.0s"
+                      repeatCount="indefinite"
+                    ></animate>
+                  </circle>{" "}
+                  <text
+                    x="250.0"
+                    y="89.0"
+                    fill="#fff"
+                    fontFamily="Plus Jakarta Sans,sans-serif"
+                    fontSize="11.5"
+                    fontWeight="700"
+                    textAnchor="middle"
+                  >
+                    Lending
+                  </text>
+                </g>{" "}
+                <path
+                  id="p1"
+                  d="M392.9 167.5 L250 250"
+                  stroke="rgba(255,255,255,.35)"
+                  strokeWidth="1.2"
+                ></path>{" "}
+                <circle r="3.5" fill="#fff">
+                  <animateMotion dur="2.95s" repeatCount="indefinite" begin="-0.5s">
+                    <mpath href="#p1"></mpath>
+                  </animateMotion>
+                </circle>{" "}
+                <g>
+                  <circle
+                    cx="392.9"
+                    cy="167.5"
+                    r="34"
+                    fill="rgba(255,255,255,.12)"
+                    stroke="rgba(255,255,255,.5)"
+                  ></circle>{" "}
+                  <circle cx="392.9" cy="167.5" r="34" stroke="#fff" strokeOpacity=".5">
+                    <animate
+                      attributeName="r"
+                      values="34;44;34"
+                      dur="4s"
+                      begin="0.6s"
+                      repeatCount="indefinite"
+                    ></animate>{" "}
+                    <animate
+                      attributeName="stroke-opacity"
+                      values=".5;0;.5"
+                      dur="4s"
+                      begin="0.6s"
+                      repeatCount="indefinite"
+                    ></animate>
+                  </circle>{" "}
+                  <text
+                    x="392.9"
+                    y="171.5"
+                    fill="#fff"
+                    fontFamily="Plus Jakarta Sans,sans-serif"
+                    fontSize="11.5"
+                    fontWeight="700"
+                    textAnchor="middle"
+                  >
+                    InsurTech
+                  </text>
+                </g>{" "}
+                <path
+                  id="p2"
+                  d="M392.9 332.5 L250 250"
+                  stroke="rgba(255,255,255,.35)"
+                  strokeWidth="1.2"
+                ></path>{" "}
+                <circle r="3.5" fill="#fff">
+                  <animateMotion dur="3.30s" repeatCount="indefinite" begin="-0.9s">
+                    <mpath href="#p2"></mpath>
+                  </animateMotion>
+                </circle>{" "}
+                <g>
+                  <circle
+                    cx="392.9"
+                    cy="332.5"
+                    r="34"
+                    fill="rgba(255,255,255,.12)"
+                    stroke="rgba(255,255,255,.5)"
+                  ></circle>{" "}
+                  <circle cx="392.9" cy="332.5" r="34" stroke="#fff" strokeOpacity=".5">
+                    <animate
+                      attributeName="r"
+                      values="34;44;34"
+                      dur="4s"
+                      begin="1.2s"
+                      repeatCount="indefinite"
+                    ></animate>{" "}
+                    <animate
+                      attributeName="stroke-opacity"
+                      values=".5;0;.5"
+                      dur="4s"
+                      begin="1.2s"
+                      repeatCount="indefinite"
+                    ></animate>
+                  </circle>{" "}
+                  <text
+                    x="392.9"
+                    y="336.5"
+                    fill="#fff"
+                    fontFamily="Plus Jakarta Sans,sans-serif"
+                    fontSize="11.5"
+                    fontWeight="700"
+                    textAnchor="middle"
+                  >
+                    WealthTech
+                  </text>
+                </g>{" "}
+                <path
+                  id="p3"
+                  d="M250.0 415.0 L250 250"
+                  stroke="rgba(255,255,255,.35)"
+                  strokeWidth="1.2"
+                ></path>{" "}
+                <circle r="3.5" fill="#fff">
+                  <animateMotion dur="3.65s" repeatCount="indefinite" begin="-1.3s">
+                    <mpath href="#p3"></mpath>
+                  </animateMotion>
+                </circle>{" "}
+                <g>
+                  <circle
+                    cx="250.0"
+                    cy="415.0"
+                    r="34"
+                    fill="rgba(255,255,255,.12)"
+                    stroke="rgba(255,255,255,.5)"
+                  ></circle>{" "}
+                  <circle cx="250.0" cy="415.0" r="34" stroke="#fff" strokeOpacity=".5">
+                    <animate
+                      attributeName="r"
+                      values="34;44;34"
+                      dur="4s"
+                      begin="1.8s"
+                      repeatCount="indefinite"
+                    ></animate>{" "}
+                    <animate
+                      attributeName="stroke-opacity"
+                      values=".5;0;.5"
+                      dur="4s"
+                      begin="1.8s"
+                      repeatCount="indefinite"
+                    ></animate>
+                  </circle>{" "}
+                  <text
+                    x="250.0"
+                    y="419.0"
+                    fill="#fff"
+                    fontFamily="Plus Jakarta Sans,sans-serif"
+                    fontSize="11.5"
+                    fontWeight="700"
+                    textAnchor="middle"
+                  >
+                    RegTech
+                  </text>
+                </g>{" "}
+                <path
+                  id="p4"
+                  d="M107.1 332.5 L250 250"
+                  stroke="rgba(255,255,255,.35)"
+                  strokeWidth="1.2"
+                ></path>{" "}
+                <circle r="3.5" fill="#fff">
+                  <animateMotion dur="4.00s" repeatCount="indefinite" begin="-1.7s">
+                    <mpath href="#p4"></mpath>
+                  </animateMotion>
+                </circle>{" "}
+                <g>
+                  <circle
+                    cx="107.1"
+                    cy="332.5"
+                    r="34"
+                    fill="rgba(255,255,255,.12)"
+                    stroke="rgba(255,255,255,.5)"
+                  ></circle>{" "}
+                  <circle cx="107.1" cy="332.5" r="34" stroke="#fff" strokeOpacity=".5">
+                    <animate
+                      attributeName="r"
+                      values="34;44;34"
+                      dur="4s"
+                      begin="2.4s"
+                      repeatCount="indefinite"
+                    ></animate>{" "}
+                    <animate
+                      attributeName="stroke-opacity"
+                      values=".5;0;.5"
+                      dur="4s"
+                      begin="2.4s"
+                      repeatCount="indefinite"
+                    ></animate>
+                  </circle>{" "}
+                  <text
+                    x="107.1"
+                    y="336.5"
+                    fill="#fff"
+                    fontFamily="Plus Jakarta Sans,sans-serif"
+                    fontSize="11.5"
+                    fontWeight="700"
+                    textAnchor="middle"
+                  >
+                    Bureaus
+                  </text>
+                </g>{" "}
+                <path
+                  id="p5"
+                  d="M107.1 167.5 L250 250"
+                  stroke="rgba(255,255,255,.35)"
+                  strokeWidth="1.2"
+                ></path>{" "}
+                <circle r="3.5" fill="#fff">
+                  <animateMotion dur="4.35s" repeatCount="indefinite" begin="-2.1s">
+                    <mpath href="#p5"></mpath>
+                  </animateMotion>
+                </circle>{" "}
+                <g>
+                  <circle
+                    cx="107.1"
+                    cy="167.5"
+                    r="34"
+                    fill="rgba(255,255,255,.12)"
+                    stroke="rgba(255,255,255,.5)"
+                  ></circle>{" "}
+                  <circle cx="107.1" cy="167.5" r="34" stroke="#fff" strokeOpacity=".5">
+                    <animate
+                      attributeName="r"
+                      values="34;44;34"
+                      dur="4s"
+                      begin="3.0s"
+                      repeatCount="indefinite"
+                    ></animate>{" "}
+                    <animate
+                      attributeName="stroke-opacity"
+                      values=".5;0;.5"
+                      dur="4s"
+                      begin="3.0s"
+                      repeatCount="indefinite"
+                    ></animate>
+                  </circle>{" "}
+                  <text
+                    x="107.1"
+                    y="171.5"
+                    fill="#fff"
+                    fontFamily="Plus Jakarta Sans,sans-serif"
+                    fontSize="11.5"
+                    fontWeight="700"
+                    textAnchor="middle"
+                  >
+                    Payments
+                  </text>
+                </g>{" "}
+                <circle cx="250" cy="250" r="62" fill="#fff"></circle>{" "}
+                <circle cx="250" cy="250" r="70" stroke="#fff" strokeOpacity=".4"></circle>{" "}
+                <text
+                  x="250"
+                  y="248"
+                  fill="#BF1A1F"
+                  fontFamily="Plus Jakarta Sans,sans-serif"
+                  fontSize="26"
+                  fontWeight="800"
+                  textAnchor="middle"
+                >
+                  FCC
+                </text>{" "}
+                <text
+                  x="250"
+                  y="268"
+                  fill="#7B7D7C"
+                  fontFamily="JetBrains Mono,monospace"
+                  fontSize="8.5"
+                  textAnchor="middle"
+                  letterSpacing="1.5"
+                >
+                  CONVERGENCE
+                </text>
+              </svg>
+            </div>{" "}
+            <div style={{ position: "relative" }}>
+              <span className="eyebrow">Membership &amp; partnership</span>{" "}
+              <h2>Let's build something for the ecosystem.</h2>{" "}
+              <p>
+                Partner with FCC to reach 175+ member companies through events, programmes and
+                knowledge sessions.
+              </p>
+              <div className="cta-actions">
+                <a href="/apply-membership" className="btn btn-light">
+                  Apply for membership
+                </a>{" "}
+                <a href="/apply-partnership" className="btn btn-ghost">
+                  Partner with us
+                </a>
+              </div>
+            </div>
+            <ul className="checks">
+              <li>Direct input into representations to regulators</li>{" "}
+              <li>A seat on sector committees with industry peers</li>{" "}
+              <li>Complimentary passes to FCC and IAMAI conferences</li>{" "}
+              <li>Members-only roundtables and every FCC report</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}

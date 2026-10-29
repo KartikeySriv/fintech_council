@@ -1,26 +1,28 @@
 @import "tailwindcss";
+@import "./fcc.css";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
+/* Tailwind theme tokens mirrored from FCC design system */
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-fcc-red: #bf1a1f;
+  --color-fcc-red-dark: #9a1418;
+  --color-fcc-red-deep: #6e0e12;
+  --color-fcc-red-bright: #f0595d;
+  --color-fcc-red-soft: #fbecec;
+  --color-fcc-red-tint: #fdf5f5;
+  --color-fcc-charcoal: #222222;
+  --color-fcc-ink: #222222;
+  --color-fcc-grey: #7b7d7c;
+  --color-fcc-muted: #66696a;
+  --color-fcc-line: #e6e6e6;
+  --color-fcc-bg: #f5f5f5;
+  --color-fcc-ok: #1e8e5a;
+  --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  --shadow-fcc: 0 18px 44px rgba(0, 0, 0, 0.08);
+  --radius-fcc: 14px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+html,
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100%;
 }

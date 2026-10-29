@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# FCC Website — Fintech Convergence Council
 
-## Getting Started
+Pixel-faithful rebuild of the [Claude artifact](https://claude.ai/artifact/M1SiKiFpx47RPEhj4Mcqn6) using **Next.js**, **TypeScript**, and **Tailwind CSS**.
 
-First, run the development server:
+## Stack
+
+- Next.js 16 (App Router)
+- TypeScript
+- Tailwind CSS v4 (brand tokens in `@theme`)
+- Original FCC design-system CSS ported for exact visual match (`src/app/fcc.css`)
+- Fonts: Plus Jakarta Sans + JetBrains Mono
+
+## Run
 
 ```bash
+cd fcc-website
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Pages
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Route | Source |
+| --- | --- |
+| `/` | Home |
+| `/about` | About Us |
+| `/annual-report` | Annual Reports |
+| `/committees` | Committees overview |
+| `/committees/digital-lending` | Digital Lending |
+| `/committees/regtech` | RegTech |
+| `/committees/wealthtech` | WealthTech |
+| `/committees/insurtech` | InsurTech |
+| `/committees/credit-bureau` | Credit Bureau |
+| `/members` | Member directory |
+| `/membership-benefits` | Membership benefits |
+| `/apply-membership` | Apply for membership |
+| `/partners` | Partners |
+| `/partnership-benefits` | Partnership benefits |
+| `/apply-partnership` | Apply for partnership |
+| `/policy` | Policy |
+| `/research` | Research |
+| `/live-events` | Live events |
+| `/virtual-events` | Virtual events |
+| `/contact` | Contact |
 
-## Learn More
+## Structure
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- `src/components/PageShell.tsx` — shared chrome (header, footer, interactions)
+- `src/components/SiteHeader.tsx` — sticky brand row + mega-menu nav
+- `src/components/SiteFooter.tsx` — footer + newsletter
+- `src/components/SiteInteractions.tsx` — filters, charts, members directory, form previews
+- `src/components/pages/*Page.tsx` — real React JSX page content (no `dangerouslySetInnerHTML`)
+- `src/app/*/page.tsx` — thin route wrappers (metadata + `PageShell`)
+- `src/app/fcc.css` — full FCC design system from the artifact
+- `src/app/globals.css` — Tailwind + theme tokens
+- `src/data/members.ts` — member directory data

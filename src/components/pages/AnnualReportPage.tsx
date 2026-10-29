@@ -1,0 +1,698 @@
+export function AnnualReportPage() {
+  return (
+    <>
+      <section className="page-hero grid-bg">
+        <div className="wrap">
+          <div>
+            <div className="crumbs">
+              <a href="/">Home</a> <span>/</span> <a href="/about">About</a> <span>/</span>Annual
+              Reports
+            </div>{" "}
+            <h1>Annual Reports</h1>{" "}
+            <p>A yearly look at FCC's representations, events, research and member activity.</p>
+          </div>{" "}
+          <div className="ph-art">
+            <svg viewBox="0 0 300 240" aria-hidden="true">
+              <circle
+                cx="150"
+                cy="120"
+                r="110"
+                stroke="rgba(255,255,255,.15)"
+                fill="none"
+                strokeDasharray="3 7"
+              ></circle>{" "}
+              <rect
+                x="70"
+                y="40"
+                width="120"
+                height="150"
+                rx="8"
+                fill="rgba(255,255,255,0.1)"
+                stroke="#fff"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              ></rect>{" "}
+              <rect
+                x="92"
+                y="52"
+                width="120"
+                height="150"
+                rx="8"
+                fill="rgba(255,255,255,0.2)"
+                stroke="#fff"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              ></rect>{" "}
+              <rect
+                x="114"
+                y="64"
+                width="120"
+                height="150"
+                rx="8"
+                fill="rgba(255,255,255,0.30000000000000004)"
+                stroke="#fff"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              ></rect>{" "}
+              <path
+                d="M140 110h70M140 130h70M140 150h40"
+                stroke="#fff"
+                strokeWidth="2"
+                fill="none"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              ></path>
+            </svg>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div className="wrap split" style={{ alignItems: "start" }}>
+          <div className="reveal">
+            <a
+              href="https://www.fintechcouncil.in/pdf/PCI-FCC-ANNUAL%20REPORT-2023-24.pdf"
+              target="_blank"
+              rel="noopener"
+              className="cover"
+              style={{ maxWidth: "340px" }}
+            >
+              <div className="book b1" style={{ aspectRatio: "3/4" }}>
+                <span className="kind">PCI · FCC · Latest</span>{" "}
+                <h4 style={{ fontSize: "1.6rem" }}>Annual Report 2023–24</h4>{" "}
+                <span className="yr">Fintech Convergence Council</span>{" "}
+                <svg viewBox="0 0 100 100" fill="none" stroke="#fff" strokeWidth="3">
+                  <circle cx="50" cy="50" r="40"></circle> <circle cx="50" cy="50" r="24"></circle>{" "}
+                  <circle cx="50" cy="50" r="8" fill="#fff"></circle>
+                </svg>
+              </div>{" "}
+              <div className="meta">
+                <span>Latest edition</span>{" "}
+                <span className="link-arrow">
+                  Download PDF{" "}
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    aria-hidden="true"
+                  >
+                    <path d="M12 4v11M7 10l5 5 5-5M5 20h14"></path>
+                  </svg>
+                </span>
+              </div>
+            </a>
+          </div>
+          <div className="reveal">
+            <span className="eyebrow">All editions</span> <h2>Our year in review</h2>{" "}
+            <p className="lead" style={{ marginBottom: "24px" }}>
+              Reports are published jointly with the Payments Council of India (PCI).
+            </p>
+            <div style={{ display: "grid", gap: "12px" }}>
+              <a
+                href="https://www.fintechcouncil.in/pdf/PCI-FCC-ANNUAL%20REPORT-2023-24.pdf"
+                target="_blank"
+                rel="noopener"
+                className="rep"
+              >
+                <div className="doc">PDF</div>{" "}
+                <div>
+                  <h4>Annual Report 2023–24</h4> <p>PCI · FCC</p>
+                </div>{" "}
+                <span className="go link-arrow">
+                  Download{" "}
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    aria-hidden="true"
+                  >
+                    <path d="M12 4v11M7 10l5 5 5-5M5 20h14"></path>
+                  </svg>
+                </span>
+              </a>{" "}
+              <a
+                href="https://www.fintechcouncil.in/pdf/annual-report-22-23.pdf"
+                target="_blank"
+                rel="noopener"
+                className="rep"
+              >
+                <div className="doc">PDF</div>{" "}
+                <div>
+                  <h4>Annual Report 2022–23</h4> <p>PCI · FCC</p>
+                </div>{" "}
+                <span className="go link-arrow">
+                  Download{" "}
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    aria-hidden="true"
+                  >
+                    <path d="M12 4v11M7 10l5 5 5-5M5 20h14"></path>
+                  </svg>
+                </span>
+              </a>{" "}
+              <a
+                href="https://www.fintechcouncil.in/pdf/annual-report-21-22.pdf"
+                target="_blank"
+                rel="noopener"
+                className="rep"
+              >
+                <div className="doc">PDF</div>{" "}
+                <div>
+                  <h4>Annual Report 2021–22</h4> <p>PCI · FCC</p>
+                </div>{" "}
+                <span className="go link-arrow">
+                  Download{" "}
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    aria-hidden="true"
+                  >
+                    <path d="M12 4v11M7 10l5 5 5-5M5 20h14"></path>
+                  </svg>
+                </span>
+              </a>{" "}
+              <a
+                href="https://www.fintechcouncil.in/pdf/PCI_FCC_Annual_Report2019_20R30_6_20.pdf"
+                target="_blank"
+                rel="noopener"
+                className="rep"
+              >
+                <div className="doc">PDF</div>{" "}
+                <div>
+                  <h4>Annual Report 2019–20</h4> <p>PCI · FCC</p>
+                </div>{" "}
+                <span className="go link-arrow">
+                  Download{" "}
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    aria-hidden="true"
+                  >
+                    <path d="M12 4v11M7 10l5 5 5-5M5 20h14"></path>
+                  </svg>
+                </span>
+              </a>{" "}
+              <a
+                href="https://www.fintechcouncil.in/pdf/PCI_FCC_Annual_Report_2018_2019.pdf"
+                target="_blank"
+                rel="noopener"
+                className="rep"
+              >
+                <div className="doc">PDF</div>{" "}
+                <div>
+                  <h4>Annual Report 2018–19</h4> <p>PCI · FCC</p>
+                </div>{" "}
+                <span className="go link-arrow">
+                  Download{" "}
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    aria-hidden="true"
+                  >
+                    <path d="M12 4v11M7 10l5 5 5-5M5 20h14"></path>
+                  </svg>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="bg-soft" style={{ paddingTop: "0" }}>
+        <div className="wrap">
+          <div className="cta-box reveal">
+            <div className="art">
+              <svg className="net" viewBox="0 0 500 500" fill="none" aria-hidden="true">
+                <circle
+                  cx="250"
+                  cy="250"
+                  r="232"
+                  stroke="rgba(255,255,255,.12)"
+                  strokeDasharray="2 8"
+                ></circle>{" "}
+                <circle
+                  cx="250"
+                  cy="250"
+                  r="165"
+                  stroke="rgba(255,255,255,.28)"
+                  strokeDasharray="4 6"
+                >
+                  <animateTransform
+                    attributeName="transform"
+                    type="rotate"
+                    from="0 250 250"
+                    to="360 250 250"
+                    dur="80s"
+                    repeatCount="indefinite"
+                  ></animateTransform>
+                </circle>{" "}
+                <circle cx="250" cy="250" r="96" stroke="rgba(255,255,255,.18)"></circle>{" "}
+                <circle cx="307.4" cy="25.2" r="4" fill="#fff" opacity=".7"></circle>{" "}
+                <text
+                  x="312.3"
+                  y="9.8"
+                  fill="rgba(255,255,255,.75)"
+                  fontFamily="JetBrains Mono,monospace"
+                  fontSize="11"
+                  textAnchor="start"
+                >
+                  RBI
+                </text>{" "}
+                <circle cx="461.5" cy="154.7" r="4" fill="#fff" opacity=".7"></circle>{" "}
+                <text
+                  x="479.8"
+                  y="150.5"
+                  fill="rgba(255,255,255,.75)"
+                  fontFamily="JetBrains Mono,monospace"
+                  fontSize="11"
+                  textAnchor="start"
+                >
+                  SEBI
+                </text>{" "}
+                <circle cx="456.4" cy="356.0" r="4" fill="#fff" opacity=".7"></circle>{" "}
+                <text
+                  x="474.2"
+                  y="369.1"
+                  fill="rgba(255,255,255,.75)"
+                  fontFamily="JetBrains Mono,monospace"
+                  fontSize="11"
+                  textAnchor="start"
+                >
+                  IRDAI
+                </text>{" "}
+                <circle cx="295.8" cy="477.4" r="4" fill="#fff" opacity=".7"></circle>{" "}
+                <text
+                  x="299.8"
+                  y="501.0"
+                  fill="rgba(255,255,255,.75)"
+                  fontFamily="JetBrains Mono,monospace"
+                  fontSize="11"
+                  textAnchor="middle"
+                >
+                  NPCI
+                </text>{" "}
+                <circle cx="100.8" cy="427.6" r="4" fill="#fff" opacity=".7"></circle>{" "}
+                <text
+                  x="87.9"
+                  y="446.9"
+                  fill="rgba(255,255,255,.75)"
+                  fontFamily="JetBrains Mono,monospace"
+                  fontSize="11"
+                  textAnchor="end"
+                >
+                  MeitY
+                </text>{" "}
+                <circle cx="18.1" cy="244.1" r="4" fill="#fff" opacity=".7"></circle>{" "}
+                <text
+                  x="-1.9"
+                  y="247.5"
+                  fill="rgba(255,255,255,.75)"
+                  fontFamily="JetBrains Mono,monospace"
+                  fontSize="11"
+                  textAnchor="end"
+                >
+                  CERSAI
+                </text>{" "}
+                <circle cx="110.0" cy="65.0" r="4" fill="#fff" opacity=".7"></circle>{" "}
+                <text
+                  x="98.0"
+                  y="53.0"
+                  fill="rgba(255,255,255,.75)"
+                  fontFamily="JetBrains Mono,monospace"
+                  fontSize="11"
+                  textAnchor="end"
+                >
+                  IBBI
+                </text>{" "}
+                <path
+                  id="p0"
+                  d="M250.0 85.0 L250 250"
+                  stroke="rgba(255,255,255,.35)"
+                  strokeWidth="1.2"
+                ></path>{" "}
+                <circle r="3.5" fill="#fff">
+                  <animateMotion dur="2.60s" repeatCount="indefinite" begin="-0.1s">
+                    <mpath href="#p0"></mpath>
+                  </animateMotion>
+                </circle>{" "}
+                <g>
+                  <circle
+                    cx="250.0"
+                    cy="85.0"
+                    r="34"
+                    fill="rgba(255,255,255,.12)"
+                    stroke="rgba(255,255,255,.5)"
+                  ></circle>{" "}
+                  <circle cx="250.0" cy="85.0" r="34" stroke="#fff" strokeOpacity=".5">
+                    <animate
+                      attributeName="r"
+                      values="34;44;34"
+                      dur="4s"
+                      begin="0.0s"
+                      repeatCount="indefinite"
+                    ></animate>{" "}
+                    <animate
+                      attributeName="stroke-opacity"
+                      values=".5;0;.5"
+                      dur="4s"
+                      begin="0.0s"
+                      repeatCount="indefinite"
+                    ></animate>
+                  </circle>{" "}
+                  <text
+                    x="250.0"
+                    y="89.0"
+                    fill="#fff"
+                    fontFamily="Plus Jakarta Sans,sans-serif"
+                    fontSize="11.5"
+                    fontWeight="700"
+                    textAnchor="middle"
+                  >
+                    Lending
+                  </text>
+                </g>{" "}
+                <path
+                  id="p1"
+                  d="M392.9 167.5 L250 250"
+                  stroke="rgba(255,255,255,.35)"
+                  strokeWidth="1.2"
+                ></path>{" "}
+                <circle r="3.5" fill="#fff">
+                  <animateMotion dur="2.95s" repeatCount="indefinite" begin="-0.5s">
+                    <mpath href="#p1"></mpath>
+                  </animateMotion>
+                </circle>{" "}
+                <g>
+                  <circle
+                    cx="392.9"
+                    cy="167.5"
+                    r="34"
+                    fill="rgba(255,255,255,.12)"
+                    stroke="rgba(255,255,255,.5)"
+                  ></circle>{" "}
+                  <circle cx="392.9" cy="167.5" r="34" stroke="#fff" strokeOpacity=".5">
+                    <animate
+                      attributeName="r"
+                      values="34;44;34"
+                      dur="4s"
+                      begin="0.6s"
+                      repeatCount="indefinite"
+                    ></animate>{" "}
+                    <animate
+                      attributeName="stroke-opacity"
+                      values=".5;0;.5"
+                      dur="4s"
+                      begin="0.6s"
+                      repeatCount="indefinite"
+                    ></animate>
+                  </circle>{" "}
+                  <text
+                    x="392.9"
+                    y="171.5"
+                    fill="#fff"
+                    fontFamily="Plus Jakarta Sans,sans-serif"
+                    fontSize="11.5"
+                    fontWeight="700"
+                    textAnchor="middle"
+                  >
+                    InsurTech
+                  </text>
+                </g>{" "}
+                <path
+                  id="p2"
+                  d="M392.9 332.5 L250 250"
+                  stroke="rgba(255,255,255,.35)"
+                  strokeWidth="1.2"
+                ></path>{" "}
+                <circle r="3.5" fill="#fff">
+                  <animateMotion dur="3.30s" repeatCount="indefinite" begin="-0.9s">
+                    <mpath href="#p2"></mpath>
+                  </animateMotion>
+                </circle>{" "}
+                <g>
+                  <circle
+                    cx="392.9"
+                    cy="332.5"
+                    r="34"
+                    fill="rgba(255,255,255,.12)"
+                    stroke="rgba(255,255,255,.5)"
+                  ></circle>{" "}
+                  <circle cx="392.9" cy="332.5" r="34" stroke="#fff" strokeOpacity=".5">
+                    <animate
+                      attributeName="r"
+                      values="34;44;34"
+                      dur="4s"
+                      begin="1.2s"
+                      repeatCount="indefinite"
+                    ></animate>{" "}
+                    <animate
+                      attributeName="stroke-opacity"
+                      values=".5;0;.5"
+                      dur="4s"
+                      begin="1.2s"
+                      repeatCount="indefinite"
+                    ></animate>
+                  </circle>{" "}
+                  <text
+                    x="392.9"
+                    y="336.5"
+                    fill="#fff"
+                    fontFamily="Plus Jakarta Sans,sans-serif"
+                    fontSize="11.5"
+                    fontWeight="700"
+                    textAnchor="middle"
+                  >
+                    WealthTech
+                  </text>
+                </g>{" "}
+                <path
+                  id="p3"
+                  d="M250.0 415.0 L250 250"
+                  stroke="rgba(255,255,255,.35)"
+                  strokeWidth="1.2"
+                ></path>{" "}
+                <circle r="3.5" fill="#fff">
+                  <animateMotion dur="3.65s" repeatCount="indefinite" begin="-1.3s">
+                    <mpath href="#p3"></mpath>
+                  </animateMotion>
+                </circle>{" "}
+                <g>
+                  <circle
+                    cx="250.0"
+                    cy="415.0"
+                    r="34"
+                    fill="rgba(255,255,255,.12)"
+                    stroke="rgba(255,255,255,.5)"
+                  ></circle>{" "}
+                  <circle cx="250.0" cy="415.0" r="34" stroke="#fff" strokeOpacity=".5">
+                    <animate
+                      attributeName="r"
+                      values="34;44;34"
+                      dur="4s"
+                      begin="1.8s"
+                      repeatCount="indefinite"
+                    ></animate>{" "}
+                    <animate
+                      attributeName="stroke-opacity"
+                      values=".5;0;.5"
+                      dur="4s"
+                      begin="1.8s"
+                      repeatCount="indefinite"
+                    ></animate>
+                  </circle>{" "}
+                  <text
+                    x="250.0"
+                    y="419.0"
+                    fill="#fff"
+                    fontFamily="Plus Jakarta Sans,sans-serif"
+                    fontSize="11.5"
+                    fontWeight="700"
+                    textAnchor="middle"
+                  >
+                    RegTech
+                  </text>
+                </g>{" "}
+                <path
+                  id="p4"
+                  d="M107.1 332.5 L250 250"
+                  stroke="rgba(255,255,255,.35)"
+                  strokeWidth="1.2"
+                ></path>{" "}
+                <circle r="3.5" fill="#fff">
+                  <animateMotion dur="4.00s" repeatCount="indefinite" begin="-1.7s">
+                    <mpath href="#p4"></mpath>
+                  </animateMotion>
+                </circle>{" "}
+                <g>
+                  <circle
+                    cx="107.1"
+                    cy="332.5"
+                    r="34"
+                    fill="rgba(255,255,255,.12)"
+                    stroke="rgba(255,255,255,.5)"
+                  ></circle>{" "}
+                  <circle cx="107.1" cy="332.5" r="34" stroke="#fff" strokeOpacity=".5">
+                    <animate
+                      attributeName="r"
+                      values="34;44;34"
+                      dur="4s"
+                      begin="2.4s"
+                      repeatCount="indefinite"
+                    ></animate>{" "}
+                    <animate
+                      attributeName="stroke-opacity"
+                      values=".5;0;.5"
+                      dur="4s"
+                      begin="2.4s"
+                      repeatCount="indefinite"
+                    ></animate>
+                  </circle>{" "}
+                  <text
+                    x="107.1"
+                    y="336.5"
+                    fill="#fff"
+                    fontFamily="Plus Jakarta Sans,sans-serif"
+                    fontSize="11.5"
+                    fontWeight="700"
+                    textAnchor="middle"
+                  >
+                    Bureaus
+                  </text>
+                </g>{" "}
+                <path
+                  id="p5"
+                  d="M107.1 167.5 L250 250"
+                  stroke="rgba(255,255,255,.35)"
+                  strokeWidth="1.2"
+                ></path>{" "}
+                <circle r="3.5" fill="#fff">
+                  <animateMotion dur="4.35s" repeatCount="indefinite" begin="-2.1s">
+                    <mpath href="#p5"></mpath>
+                  </animateMotion>
+                </circle>{" "}
+                <g>
+                  <circle
+                    cx="107.1"
+                    cy="167.5"
+                    r="34"
+                    fill="rgba(255,255,255,.12)"
+                    stroke="rgba(255,255,255,.5)"
+                  ></circle>{" "}
+                  <circle cx="107.1" cy="167.5" r="34" stroke="#fff" strokeOpacity=".5">
+                    <animate
+                      attributeName="r"
+                      values="34;44;34"
+                      dur="4s"
+                      begin="3.0s"
+                      repeatCount="indefinite"
+                    ></animate>{" "}
+                    <animate
+                      attributeName="stroke-opacity"
+                      values=".5;0;.5"
+                      dur="4s"
+                      begin="3.0s"
+                      repeatCount="indefinite"
+                    ></animate>
+                  </circle>{" "}
+                  <text
+                    x="107.1"
+                    y="171.5"
+                    fill="#fff"
+                    fontFamily="Plus Jakarta Sans,sans-serif"
+                    fontSize="11.5"
+                    fontWeight="700"
+                    textAnchor="middle"
+                  >
+                    Payments
+                  </text>
+                </g>{" "}
+                <circle cx="250" cy="250" r="62" fill="#fff"></circle>{" "}
+                <circle cx="250" cy="250" r="70" stroke="#fff" strokeOpacity=".4"></circle>{" "}
+                <text
+                  x="250"
+                  y="248"
+                  fill="#BF1A1F"
+                  fontFamily="Plus Jakarta Sans,sans-serif"
+                  fontSize="26"
+                  fontWeight="800"
+                  textAnchor="middle"
+                >
+                  FCC
+                </text>{" "}
+                <text
+                  x="250"
+                  y="268"
+                  fill="#7B7D7C"
+                  fontFamily="JetBrains Mono,monospace"
+                  fontSize="8.5"
+                  textAnchor="middle"
+                  letterSpacing="1.5"
+                >
+                  CONVERGENCE
+                </text>
+              </svg>
+            </div>{" "}
+            <div style={{ position: "relative" }}>
+              <span className="eyebrow">Membership &amp; partnership</span>{" "}
+              <h2>Have a seat at the table where fintech policy is shaped.</h2>{" "}
+              <p>
+                Join FCC as a member, or partner with us on events, research and industry
+                programmes.
+              </p>
+              <div className="cta-actions">
+                <a href="/apply-membership" className="btn btn-light">
+                  Apply for membership
+                </a>{" "}
+                <a href="/apply-partnership" className="btn btn-ghost">
+                  Partner with us
+                </a>
+              </div>
+            </div>
+            <ul className="checks">
+              <li>Direct input into representations to regulators</li>{" "}
+              <li>A seat on sector committees with industry peers</li>{" "}
+              <li>Complimentary passes to FCC and IAMAI conferences</li>{" "}
+              <li>Members-only roundtables and every FCC report</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}
