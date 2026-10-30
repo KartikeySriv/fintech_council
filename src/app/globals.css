@@ -26,3 +26,22 @@ html,
 body {
   min-height: 100%;
 }
+
+/* Tailwind preflight sets heading weight/size to inherit — restore FCC bold headings */
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 700;
+  }
+  h1,
+  h2 {
+    font-weight: 800;
+  }
+  button {
+    background-color: transparent;
+  }
+}
